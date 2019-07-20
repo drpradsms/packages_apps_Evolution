@@ -52,5 +52,4 @@
     <string name="use_old_mobiletype_title">Use old mobile signal</string>
     <string name="use_old_mobiletype_summary">Use the mobile icons from oreo and before\nSystemUI will restart</string>
 
->>>>>>> ffcb8fa... Evolution: allow switch to pre P mobile icon style [2/2]
 </resources>
