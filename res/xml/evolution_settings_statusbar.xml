@@ -19,6 +19,12 @@
     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
 
 
+    <Preference
+        android:key="traffic_settings"
+        android:title="@string/traffic_category"
+	android:summary="@string/network_traffic_state_title"
+        android:fragment="com.evolution.settings.fragments.TrafficSettings" />
+
         <com.evolution.settings.preferences.SystemSettingSwitchPreference
             android:key="roaming_indicator_icon"
             android:title="@string/roaming_indicator_icon_title"
