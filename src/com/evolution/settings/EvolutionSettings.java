@@ -32,13 +32,13 @@ import com.android.settings.SettingsPreferenceFragment;
 
 public class EvolutionSettings extends SettingsPreferenceFragment {
 
-    @Override
+/**    @Override
     public void onCreate(Bundle icicle) {
         super.onCreate(icicle);
 
         addPreferencesFromResource(R.xml.evolution_settings);
     }
-
+**/
     @Override
     public int getMetricsCategory() {
         return MetricsProto.MetricsEvent.EVO_SETTINGS;
